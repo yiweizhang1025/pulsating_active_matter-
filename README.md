@@ -9,3 +9,4 @@ source codes for the manuscript *Pulsating Active Matter*
 - ep_inc_simu.sh: The shell script inputting simulation parameters for the C code ep_inc_Param_order.cpp
 - ep_dec_simu.sh: The shell script inputting simulation parameters for the C code ep_dec_Param_order.cpp
 - movie.py: The Python 3.7 script for trajectory animation
+- complex_hydro.m: The MATLAB script for hydrodynamic simulations and animations
