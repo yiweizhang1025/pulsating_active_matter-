@@ -1,6 +1,6 @@
 
 # pulsating_active_matter
-source code for the manuscript *Pulsating Active Matter*
+source codes for the manuscript *Pulsating Active Matter*
 ## Comments on the files
 - Param_order.cpp: The C++ code for particle-based simulations, the results of whom were used for measuring phase diagrams.
 - simu.sh: The shell script inputting simulation parameters for the C++ code Param_order.cpp
