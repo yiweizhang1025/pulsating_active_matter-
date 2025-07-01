@@ -11,7 +11,7 @@ private:
 
 public:
     // Constructor
-    void Particle(int id, double r, double x, double y, double vx = 0.0, double vy = 0.0){
+    Particle(int id, double r, double x, double y, double vx = 0.0, double vy = 0.0){
         this->id = id;
         this->r = r; 
         this->x = x;
@@ -29,7 +29,7 @@ public:
     void SetVelocity(double vx, double vy){
         this->vx = vx;
         this->vy = vy;
-    }:
+    };
 
     void SetRadius(double r){
         this->r = r;
@@ -67,4 +67,4 @@ public:
     double GetForce() const {
         return force;
     };
-}
+};
